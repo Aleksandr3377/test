@@ -33,6 +33,7 @@ class Homework
         }
         Console.WriteLine($"result: {stringBiulder.ToString()}");
         Console.WriteLine( "hi");
+        Console.WriteLine(   );
     }
 }
 
