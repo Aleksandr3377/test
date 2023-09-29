@@ -31,9 +31,14 @@ class Homework
             stringBiulder.Append(fibonachiNumber);
             stringBiulder.Append(", ");
         }
-        Console.WriteLine($"result: {stringBiulder.ToString()}");
-        Console.WriteLine( "hi");
-        Console.WriteLine(   );
-    }
+        if (int.TryParse(numbers, out int nextFibonachi && numbers > 0))
+        {
+            Console.WriteLine($"result: {stringBiulder.ToString()}");
+        }
+        else 
+        {
+            Console.WriteLine("write number");
+        }
+        
 }
 
