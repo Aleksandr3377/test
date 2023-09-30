@@ -32,7 +32,7 @@ class Homework
             stringBiulder.Append(", ");
         }
         Console.WriteLine($"result: {stringBiulder.ToString()}");
-        Console.WriteLine( "hi");
+        Console.WriteLine( "hi2");
     }
 }
 
