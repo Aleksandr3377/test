@@ -39,7 +39,6 @@ class Homework
         {
             Console.WriteLine("write number");
         }
-        1111
         
 }
 
